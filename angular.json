@@ -28,7 +28,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/images/grimme_logo_red.svg"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
