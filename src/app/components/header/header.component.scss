@@ -1,4 +1,15 @@
-.nav-link {
+.nav-link.waves-light {
   color: white;
   margin-left: 10px;
+}
+
+.nav-link.waves-light.active {
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+
+.d-block {
+  margin-left: 15px;
 }

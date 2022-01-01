@@ -1,21 +1,26 @@
-<nav class="navbar navbar-expand-lg bg-dark">
-  <div class="container-fluid">
-    <ul class="navbar-nav mr-auto">
-      <img class="d-block" src="assets/images/grimme_logo_red.svg"/>
-      <li class="nav-item"><a class="nav-link active waves-light" href="#"> Dashboard </a></li>
-      <li class="nav-item"><a class="nav-link waves-light" href="#"> Certificates </a></li>
-      <li class="nav-item"><a class="nav-link waves-light" href="#"> Domains </a></li>
-      <li class="nav-item"><a class="nav-link waves-light" href="#"> Targethosts </a></li>
-      <li class="nav-item"><a class="nav-link waves-light" href="#"> Hoster </a></li>
-      <li class="nav-item"><a class="nav-link waves-light" href="#"> Targets </a></li>
-      <li class="nav-item"><a class="nav-link waves-light" href="#"> Jobs </a></li>
-      <li class="nav-item me-3 me-lg-0">
-        <a class="nav-link" href="#">
-          Test
-          <i class="fas fa-shopping-cart"></i>
-        </a>
-      </li>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <img class="d-block" src="assets/images/grimme_logo_red.svg"/>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active"><a class="nav-link waves-light active" routerLink="/"> Dashboard </a></li>
+      <li routerLinkActive="active"><a class="nav-link waves-light" routerLink="/certificates"> Certificates </a></li>
+      <li routerLinkActive="active"><a class="nav-link waves-light" routerLink="/domains"> Domains </a></li>
+      <li routerLinkActive="active"><a class="nav-link waves-light" routerLink="/targethosts"> Targethosts </a></li>
+      <li routerLinkActive="active"><a class="nav-link waves-light" routerLink="/hoster"> Hoster </a></li>
+      <li routerLinkActive="active"><a class="nav-link waves-light" routerLink="/targets"> Targets </a></li>
+      <li routerLinkActive="active"><a class="nav-link waves-light" routerLink="/jobs"> Jobs </a></li>
     </ul>
-
   </div>
 </nav>
+
+<!-- <img class="d-block" src="assets/images/grimme_logo_red.svg"/>
+<li  routerLinkActive="active"><a class="nav-link active waves-light" routerLink="/dashboard"> Dashboard </a></li>
+<li  routerLinkActive="active"><a class="nav-link waves-light" routerLink="/certificates"> Certificates </a></li>
+<li  routerLinkActive="active"><a class="nav-link waves-light" routerLink="/domains"> Domains </a></li>
+<li  routerLinkActive="active"><a class="nav-link waves-light" routerLink="/targethosts"> Targethosts </a></li>
+<li  routerLinkActive="active"><a class="nav-link waves-light" routerLink="/hoster"> Hoster </a></li>
+<li  routerLinkActive="active"><a class="nav-link waves-light" routerLink="/targets"> Targets </a></li>
+<li  routerLinkActive="active"><a class="nav-link waves-light" routerLink="/jobs"> Jobs </a></li> -->
